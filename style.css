@@ -1,265 +1,254 @@
-body{
-    margin: 0;
-    padding: 0;
-    
-}
-   
-*{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./gameBackground.webp);
 }
 
-.content{
-    max-width: 75%;
-    min-width: 75%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-#Introduction{
-    margin: 0 auto;;
-    display: flex;
-    text-align: center;
-    /* border: 2px solid blue; */
-    gap: 100px;
-    width:100%;
-    justify-content: space-around;
-    background-color:black;
-}
-   
-   
-   
-
-#intro{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    max-width: 65%;
-    min-width: 65%;
-}
-   
-    
-#greetings{
-    color: white;
-}
-#name{
-    color:rgb(245,182,51);
-}
-#work{
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-button{
-    border: none;
-    outline: none;
-    background: rgb(245,182,51);
-    padding: 1rem;
-    max-width: 30%;
-    min-width: 30%;
-    align-self: center;;
+.content {
+  max-width: 75%;
+  min-width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
-#pic{
-    background-color: rgb(245,182,51);
-    /* border:2px solid green; */
-    display: flex;
-    flex-direction: row;
-    width:35%;
-    position: relative;
-}
-    
-.my-picture{
-    object-fit:cover;
-    max-width:300px;
-    min-width:300px;
-    /* border: 2px solid blue; */
-    position: relative;
-    bottom: 100px;
-    right:150px;
+#Introduction {
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  /* border: 2px solid blue; */
+  gap: 100px;
+  width: 100%;
+  justify-content: space-around;
+  /* background-color: black; */
 }
 
-.about{
-    /* border: 3px solid red; */
-    margin: 0 auto;
-    background-color:rgb(49,49,49);
-    display: flex;
-    align-items: center;
-    gap: 6rem;
-    padding: 20px;
-}
-    
-    
-   
-#myPic{
-    max-width: 30%;
-    min-width: 30%;
-    border:10px solid yellow;
-    position:relative;
-}
-   
-.my-pic{
-    max-width: 200px;
-    min-width: 200px;
-    position: relative;
-    bottom: 80px;
-    left: 50px;
-}
-    
-#aboutme{
-    /* border: 2px solid blue; */
-    max-width: 60%;
-    min-width:60%;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
-.me{
-    text-decoration-line: underline;
-    text-decoration-color: rgb(245,182,51);
-    color: white;
-    
-}
-.narration{
-    color: antiquewhite;
-    width:50%
-}
-#button{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    font-weight: bold;
+#intro {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 65%;
+  min-width: 65%;
 }
 
-.btn1{
-    color:rgb(245,182,51);
-    background-color: white;
-    font-weight: bolder;
-    border-radius: 2rem;
-    width: fit-content;
+#greetings {
+  color: white;
 }
-.btn2{
-    color:rgb(245,182,51);
-    background-color: white;
-    font-weight: bolder;
-    border-radius: 2rem;
+#name {
+  color: rgb(245, 182, 51);
 }
-.btn3{
-    color:rgb(245,182,51);
-    background-color: white;
-    font-weight: bolder;
-    border-radius: 3rem;
+#work {
+  color: white;
 }
 
-#service{
-    /* border: 3px solid red; */
-    margin: 0 auto;
-    background-color: rgb(44,44,44);
-    display: flex;
-    gap: 2rem;
-    max-width: 100%;
-    min-width: 100%;
+button {
+  border: none;
+  outline: none;
+  /* background: rgb(245, 182, 51); */
+  padding: 1rem;
+  max-width: 30%;
+  min-width: 30%;
+  align-self: center;
 }
-   
-    
-  
-
-#serv{
-    /* border: 3px solid yellow; */
-    display: flex;
-    width:30%;
-    flex-direction: column;
-    gap: 4rem;
-}
-#heading1{
-    text-decoration: none;
-    color:rgb(248,197,74);
+#pic {
+  /* background-color: rgb(245, 182, 51); */
+  /* border:2px solid green; */
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  position: relative;
 }
 
-h1{
-    color: white;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(245,182,51);
-    
-}
-#context1{
-    color: white;
-}
-#services1{
-    /* border: 3px solid blue; */
-    color: white;
-    
-    text-align: center;
-}
-    
-
-#services2{
-    /* border: 3px solid magenta; */
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
+.my-picture {
+  object-fit: cover;
+  max-width: 300px;
+  min-width: 300px;
+  /* border: 2px solid blue; */
+  position: relative;
+  bottom: 100px;
+  right: 150px;
 }
 
-#context2{
-    color: white;
-    
-}
-.fa-solid{
-    color: white;
+.about {
+  /* border: 3px solid red; */
+  margin: 0 auto;
+  /* background-color: rgb(49, 49, 49); */
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding: 20px;
 }
 
-@media (max-width:780px){
-.conteent{
-    width:100%;
+#myPic {
+  max-width: 30%;
+  min-width: 30%;
+  border: 10px solid yellow;
+  position: relative;
+}
+
+.my-pic {
+  max-width: 200px;
+  min-width: 200px;
+  position: relative;
+  bottom: 80px;
+  left: 50px;
+}
+
+#aboutme {
+  /* border: 2px solid blue; */
+  max-width: 60%;
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.me {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(245, 182, 51);
+  color: white;
+}
+.narration {
+  color: black;
+  width: 50%;
+  font-weight: bold;
+  font-size: 20px;
+}
+#button {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.btn1 {
+  color: rgb(245, 182, 51);
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 2rem;
+  width: fit-content;
+}
+.btn2 {
+  color: rgb(245, 182, 51);
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 2rem;
+}
+.btn3 {
+  color: rgb(245, 182, 51);
+  background-color: white;
+  font-weight: bolder;
+  border-radius: 3rem;
+}
+
+#service {
+  /* border: 3px solid red; */
+  margin: 0 auto;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  gap: 2rem;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#serv {
+  /* border: 3px solid yellow; */
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 4rem;
+}
+#heading1 {
+  text-decoration: none;
+  color: rgb(248, 197, 74);
+}
+
+h1 {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(245, 182, 51);
+}
+#context1 {
+  color: white;
+}
+#services1 {
+  /* border: 3px solid blue; */
+  color: white;
+
+  text-align: center;
+}
+
+#services2 {
+  /* border: 3px solid magenta; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+#context2 {
+  color: white;
+}
+.fa-solid {
+  color: white;
+}
+
+@media (max-width: 780px) {
+  .conteent {
+    width: 100%;
     min-width: 100%;
     flex-direction: column;
-}
-#Introduction{
+  }
+  #Introduction {
     flex-direction: column;
     width: 100%;
-}
-#intro{
+  }
+  #intro {
     max-width: 100%;
     min-width: 100%;
-}
-#pic{
+  }
+  #pic {
     position: relative;
-}
-#narration{
-    width:100%;
-}
-button{
+  }
+  #narration {
+    width: 100%;
+  }
+  button {
     max-width: 100%;
     min-width: 100%;
-}
-#pic{
-    width:100%;
+  }
+  #pic {
+    width: 100%;
     flex-direction: column;
-}
-.about{
+  }
+  .about {
     flex-direction: column;
-}
-#aboutme{
+  }
+  #aboutme {
     max-width: 100%;
     min-width: 100%;
-}
-#service{
+  }
+  #service {
     flex-direction: column;
     max-width: 100%;
     min-width: 100%;
-}
-#serv{
+  }
+  #serv {
     width: 100%;
-}
-#button{
+  }
+  #button {
     flex-direction: column;
-}
-#services1{
+  }
+  #services1 {
     width: 100%;
-}
-#services2{
+  }
+  #services2 {
     width: 100%;
-}
+  }
 }
